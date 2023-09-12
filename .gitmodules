@@ -1,0 +1,6 @@
+[submodule "base-infrastructure"]
+	path = base-infrastructure
+	url = https://github.com/fizaguirre/gke-base-infrastructure.git
+[submodule "application-stack"]
+	path = application-stack
+	url = https://github.com/fizaguirre/gke-demo-deployment.git
