@@ -23,9 +23,9 @@ module "app" {
 
   gke_service_name             = "appsvc"
   gke_service_target_http_port = 8080
-  ssl_certificate            = module.base_infrastructure._certificate
-  rsa_private_key            = module.base_infrastructure._certificate_key
-  application_replicas_count = 3
+  ssl_certificate              = module.base_infrastructure._certificate
+  rsa_private_key              = module.base_infrastructure._certificate_key
+  application_replicas_count   = 3
 }
 
 output "appclusterendpoint" {

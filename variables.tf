@@ -4,25 +4,25 @@ variable "kubeconfig_path" {
 }
 
 variable "gcp_project" {
-  type        = string
+  type = string
 }
 
 variable "cert_cn" {
-  type        = string
+  type = string
 }
 
 variable "cert_country" {
-  type        = string
+  type = string
 }
 
 variable "cert_locality" {
-  type        = string
+  type = string
 }
 
 variable "cert_organization" {
-  type        = string
+  type = string
 }
 
 variable "cert_ou" {
-  type        = string
+  type = string
 }
